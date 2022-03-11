@@ -2,23 +2,23 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
+# 网站
+title: 小破站
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: Kai
+language: zh-cn
 timezone:
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+# 网站
+## 如果你的站点放在子目录中,将url设置为'http://yoursite.com/child',将root设置为'/child/'
+url: http://blog.zknb-666.ml
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# Directory
+# 目录
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -28,11 +28,11 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
-new_post_name: :title.md # File name of new posts
+# 写作
+new_post_name: :title.md # 新帖子的文件名
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false # 将标题转换成首字母大写标题
+external_link: true # 在新标签打开外部链接
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -44,42 +44,41 @@ highlight:
   auto_detect: false
   tab_replace:
   
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
+# 主页设置
+# path:你的博客索引页的根路径.(默认= ")
+# per_page:每页显示的帖子.(0=禁用分页)
+# order_by:发布日期.(默认按日期降序排列)
   path: ''
   per_page: 10
   order_by: -date
   
-# Category & Tag
+# 分类和标签
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
+# 日期/时间格式
+## Hexo使用Moment.js解析和显示日期
+##你可以自定义日期格式
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# Pagination
-## Set per_page to 0 to disable pagination
+# 分页
+## 如设置per_page为0,则禁用分页
 per_page: 10
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+# 扩展
+## 插件: https://hexo.io/plugins/
+## 主题: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
+# 部署
+## 说明文档: https://hexo.io/docs/deployment.html
 deploy:
   type:
 
-
+# Next附加属性
 pjax: true
 plugins: unpkg
